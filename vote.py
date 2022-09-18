@@ -1,6 +1,7 @@
 """
 Class: Vote
-Description: 
+Description: This class contains an individual vote of ranked candidates, including what the most
+    resent candidate returned is and their ranking in this individual vote.
 Class Variables:
     lane_name: the name of the lane associated with the vote
     candidate_preference: a tuple of strings representing the names of candidates
@@ -32,7 +33,8 @@ class Vote():
     """
     Function: add_ranked_candidates
     Description: stores ranked_list as the candidate_preference if ranked_list is a list
-    Parameters: ranked_list
+    Parameters: 
+        ranked_list - a list of candidates in order of preference for this individual vote
     """
     def add_ranked_candidates(self, ranked_list):
 
