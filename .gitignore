@@ -1,3 +1,4 @@
 notes.txt
 README.md
 .gitignore
+__pycache__

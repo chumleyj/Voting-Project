@@ -48,7 +48,7 @@ class Candidate():
     
     """
     Function: add_votes
-    Description: adds votes to the total_vote tally and the runoff round assocaited with those votes
+    Description: adds votes to the total_vote tally and the runoff round associated with those votes
     Parameters:
     """
     def add_votes(self, vote_count, vote_round):
